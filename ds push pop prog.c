@@ -51,7 +51,7 @@ void push (int arr[],int data,int *top,int n)
 }
 else
 {  arr[++(*top)]=data;
-   printf("%d Pushed onto stack\n,data");
+   printf("%d Pushed onto stack\n",data);
 }
 }
 
